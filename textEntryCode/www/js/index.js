@@ -4,7 +4,7 @@ function random() {
     return !Math.round(Math.random());
 }
 function submitButton()
-    var rand = random(){
+    var rand = random()
     $('#answer').text(rand());
     if(rand) {
         navigator.navigation.beep(1);
