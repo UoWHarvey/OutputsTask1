@@ -5,5 +5,6 @@ function random() {
 }
 function submitButton() {
     
-    console.log('test');
+    $('#answer').text(random());
+    
 }
